@@ -8,7 +8,7 @@
   }
   
   a {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   .clear {
@@ -35,9 +35,9 @@
   }
   
   header {
-    height: 80px;
+    height: 90px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(34, 49, 52, 0.7);
     position :fixed;
     top: 0;
     z-index: 10;
@@ -66,11 +66,11 @@
     color: white;
     display: block;
     float: left;
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
   
   .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
   }
  .page{
      background-image: url(https://ewscripps.brightspotcdn.com/dims4/default/bc45651/2147483647/strip/true/crop/640x360+0+34/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.abc2news.com%2Fphoto%2F2018%2F08%2F23%2F647251756-170667a_1535046311021_95521833_ver1.0_640_480.jpg);
@@ -144,7 +144,7 @@
     color: whitesmoke;
     background-color: darkgreen;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 #work{
   margin-top: 200px;
