@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
+      font-family: "Lucida Grande";
   }
   
   body {
     margin: 0;
-    font-family: "Lucida Grande";
+  
   }
   
   a {
@@ -33,7 +34,7 @@
     margin-right: 5px;
     padding:10px;
   }
-  
+  //Header section
   header {
     height: 90px;
     width: 100%;
@@ -42,7 +43,7 @@
     top: 0;
     z-index: 10;
   }
-  
+  //Logo section
   .logo {
     width: 80px;
     height: 50%;
@@ -72,6 +73,7 @@
   .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
+//Page Section
  .page{
      background-image: url(https://ewscripps.brightspotcdn.com/dims4/default/bc45651/2147483647/strip/true/crop/640x360+0+34/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.abc2news.com%2Fphoto%2F2018%2F08%2F23%2F647251756-170667a_1535046311021_95521833_ver1.0_640_480.jpg);
     width:100%;
